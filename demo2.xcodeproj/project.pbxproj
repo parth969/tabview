@@ -16,6 +16,7 @@
 		901F90212345F3E60096CC25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901F901F2345F3E60096CC25 /* LaunchScreen.storyboard */; };
 		901F902C2345F3E60096CC25 /* demo2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901F902B2345F3E60096CC25 /* demo2Tests.swift */; };
 		901F90372345F3E60096CC25 /* demo2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901F90362345F3E60096CC25 /* demo2UITests.swift */; };
+		903A9DDF2345FDE700BFE16A /* demosql.sql in Resources */ = {isa = PBXBuildFile; fileRef = 903A9DDE2345FDE700BFE16A /* demosql.sql */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		901F90322345F3E60096CC25 /* demo2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demo2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		901F90362345F3E60096CC25 /* demo2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo2UITests.swift; sourceTree = "<group>"; };
 		901F90382345F3E60096CC25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		903A9DDE2345FDE700BFE16A /* demosql.sql */ = {isa = PBXFileReference; lastKnownFileType = file; name = demosql.sql; path = demo2/demosql.sql; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		901F90102345F3E50096CC25 /* demo2 */ = {
 			isa = PBXGroup;
 			children = (
+				903A9DDD2345FDC200BFE16A /* Database */,
 				901F90112345F3E50096CC25 /* AppDelegate.swift */,
 				901F90132345F3E50096CC25 /* SceneDelegate.swift */,
 				901F90152345F3E50096CC25 /* ViewController.swift */,
@@ -129,6 +132,14 @@
 				901F90382345F3E60096CC25 /* Info.plist */,
 			);
 			path = demo2UITests;
+			sourceTree = "<group>";
+		};
+		903A9DDD2345FDC200BFE16A /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				903A9DDE2345FDE700BFE16A /* demosql.sql */,
+			);
+			path = Database;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +248,7 @@
 			files = (
 				901F90212345F3E60096CC25 /* LaunchScreen.storyboard in Resources */,
 				901F901E2345F3E60096CC25 /* Assets.xcassets in Resources */,
+				903A9DDF2345FDE700BFE16A /* demosql.sql in Resources */,
 				901F90192345F3E50096CC25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
